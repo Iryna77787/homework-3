@@ -51,6 +51,14 @@ font-size: 36px;
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    box-sizing: border-box;
+    
+      
+           
+    
+        background: #FFFFFF;
+        
+        border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -417,7 +425,7 @@ font-size: 36px;
 }
 
 .footer-link {
-    margin-bottom: 16px;
+    
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -429,7 +437,7 @@ font-size: 36px;
 }
 
 .logo-web {
-    margin-bottom: 16px;
+   
     font-family: var(--secondary-font);
     font-weight: 800;
         font-size: 18px;
