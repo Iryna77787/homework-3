@@ -76,7 +76,7 @@ body {
     
 }
 
-.title-two {
+.title {
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -86,10 +86,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 
 /*============================= HEADER ====================== */
 
