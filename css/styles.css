@@ -358,6 +358,18 @@ body {
 
 }
 
+.portfolio-box {
+    box-sizing: border-box;
+
+    width: 360px;
+    height: 420px;
+    left: 540px;
+    top: 288px;
+    background: var(--tertiary-text-color);
+    border: 1px solid var(--tertiary-acent-color);
+   
+}
+
 
 .portfolio-description {
     
