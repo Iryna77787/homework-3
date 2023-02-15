@@ -93,7 +93,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--primary-acent-color);
 }
 
 .header-container {
@@ -138,6 +138,8 @@ body {
 }
 
 .header-menu-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -224,8 +226,8 @@ body {
 
 }
 
-.text-btn:hover,
-.text-btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: var(--acent-color);
     color: var(--tertiary-text-color);
 }
@@ -286,7 +288,7 @@ body {
 }
 
 .team-item {
-    background: #FFFFFF;
+    background: var(--tertiary-text-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -322,20 +324,21 @@ body {
 }
 
 .filter-btn {
-    margin-bottom: 72px;
+    
     display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 12px 24px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--primary-acent-color);
     border-radius: 4px;
     color: var(--acent-color);
     background: var(--tertiary-acent-color);
 }
 
 .filter-menu {
+    margin-bottom: 72px;
     justify-content: center;
     display: flex;
     gap: 24px;
@@ -355,17 +358,16 @@ body {
 
 }
 
-.portfolio-item {
-    flex-basis: calc((100% - 234) / 9);
-}
 
 .portfolio-description {
     
-    background: #FFFFFF;
-    border: 1px solid #E7E9FC;
+    background: var(--tertiary-text-color);
+    border: 1px solid var(--primary-acent-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    border-top: none;
     padding-left: 16px;
+    
 }
 
 .portfolio-title {
@@ -417,7 +419,7 @@ body {
 
 .footer-text {
     margin-top: 16px;
-    max-width: 264px;
+    width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-acent-color);
