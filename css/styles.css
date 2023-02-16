@@ -91,8 +91,7 @@ body {
 /*============================= HEADER ====================== */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
     border-bottom: 1px solid var(--primary-acent-color);
 }
 
@@ -212,8 +211,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     display: block;
-    align-items: center;
-    margin-left: auto;
+   margin-left: auto;
     margin-right: auto;
     min-width: 169px;
     padding: 16px 32px;
@@ -335,6 +333,7 @@ body {
     border-radius: 4px;
     color: var(--acent-color);
     background: var(--tertiary-acent-color);
+    cursor: pointer;
 }
 
 .filter-menu {
@@ -358,17 +357,7 @@ body {
 
 }
 
-.portfolio-box {
-    box-sizing: border-box;
 
-    width: 360px;
-    height: 420px;
-    left: 540px;
-    top: 288px;
-    background: var(--tertiary-text-color);
-    border: 1px solid var(--tertiary-acent-color);
-   
-}
 
 
 .portfolio-description {
